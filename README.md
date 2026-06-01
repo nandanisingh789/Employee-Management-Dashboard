@@ -21,29 +21,6 @@ A responsive, full-featured Employee Management Dashboard built with **React.js*
 | Username | `emilys`      |
 | Password | `emilyspass`  |
 
-## Project Structure
-
-employee-dashboard/
-├── public/
-│   └── index.html
-├── src/
-│   ├── context/
-│   │   ├── AuthContext.js       # JWT auth state
-│   │   ├── ThemeContext.js      # Dark mode
-│   │   ├── EmployeeContext.js   # Employee CRUD state
-│   │   └── ToastContext.js      # Toast notifications
-│   ├── components/
-│   │   └── DashboardLayout.js  # Sidebar + navbar
-│   ├── pages/
-│   │   ├── LoginPage.js
-│   │   ├── DashboardHome.js
-│   │   ├── EmployeesPage.js
-│   │   └── AddEmployeePage.js
-│   ├── App.js
-│   ├── index.js
-│   └── index.css
-├── tailwind.config.js
-└── package.json
 
 
 
